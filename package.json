@@ -1,12 +1,12 @@
 {
-  "name": "sendhelp",
+  "name": "@buj351/sendhelp",
   "version": "1.0.0",
   "description": "A very powerful programming language",
   "main": "build/index.js",
   "repository": "https://github.com/5GameMaker/sendhelp.git",
   "author": "buj",
   "license": "GPL-3.0-or-later",
-  "private": true,
+  "private": false,
   "type": "commonjs",
   "devDependencies": {
     "@types/node": "^17.0.31"

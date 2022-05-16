@@ -21,5 +21,5 @@ It can also be used as a module and in browser
 <script src="path/to/build/index.browser.js"></script>
 ```
 ```ts
-import { sendhelp } from 'sendhelp';
+import { sendhelp } from '@buj351/sendhelp';
 ```
