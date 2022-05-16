@@ -1,0 +1,2 @@
+
+print 0 < nothing <- { input > equals 1 > print } --> nothing > "1" > print > { << print 1 }

@@ -1,0 +1,17 @@
+{
+  "name": "sendhelp",
+  "version": "1.0.0",
+  "description": "A very powerful programming language",
+  "main": "build/index.js",
+  "repository": "https://github.com/5GameMaker/sendhelp.git",
+  "author": "buj",
+  "license": "GPL-3.0-or-later",
+  "private": true,
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^17.0.31"
+  },
+  "scripts": {
+    "build": "npx tsc && echo '(()=>{let exports={};(()=>{'\"`cat build/index.js`\"'})();for(const name of Object.getOwnPropertyNames(exports)){window[name]=exports[name]}})()' > build/index.browser.js"
+  }
+}

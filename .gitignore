@@ -1,0 +1,6 @@
+build
+tsbuildinfo.json
+node_modules
+typings
+!.gitignore
+!.npmignore
